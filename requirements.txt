@@ -8,6 +8,10 @@ json5>=0.9.6
 # Speech Recognition
 vosk>=0.3.45
 sounddevice>=0.4.5
+# For WhisperX (install via pip install git+https://github.com/m-bain/whisperx.git)
+ctranslate2
+torch>=1.10.0
+torchaudio>=0.10.0
 
 # Text-to-Speech
 torch>=1.10.0
