@@ -19,3 +19,15 @@ sudo modprobe nvidia_uvm
 sudo systemctl start ollama
 
 ```
+
+### CUDA // LINUX
+[https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#network-repo-installation-for-ubuntu]
+```
+export KEYRING=cuda-keyring_1.1-1_all.deb
+export DISTRO=ubuntu2404
+export ARCH=x86_64
+wget https://developer.download.nvidia.com/compute/cuda/repos/$DISTRO/$ARCH/$KEYRING
+sudo dpkg -i $KEYRING
+sudo apt-get update
+sudo apt-get install cuda-toolkit
+``` 
