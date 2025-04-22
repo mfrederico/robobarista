@@ -1,4 +1,4 @@
-#A self-contained order taking robot
+# A self-contained order taking robot
 _beep boop!_
 - ollama, 
 - vosk for speech detection 
