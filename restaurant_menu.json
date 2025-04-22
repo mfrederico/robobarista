@@ -1,0 +1,145 @@
+{
+  "name": "Quick Burger Drive-Through",
+  "categories": [
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "id": "b1",
+          "name": "Classic Burger",
+          "description": "Beef patty with lettuce, tomato, and our special sauce",
+          "price": 5.99,
+          "options": [
+            {"name": "Cheese", "price": 0.75},
+            {"name": "Bacon", "price": 1.50},
+            {"name": "Extra Patty", "price": 2.00}
+          ]
+        },
+        {
+          "id": "b2",
+          "name": "Deluxe Burger",
+          "description": "Double beef patty with cheese, bacon, lettuce, tomato, and special sauce",
+          "price": 8.99,
+          "options": [
+            {"name": "Extra Cheese", "price": 0.75},
+            {"name": "Extra Bacon", "price": 1.00},
+            {"name": "Avocado", "price": 1.50}
+          ]
+        },
+        {
+          "id": "b3",
+          "name": "Veggie Burger",
+          "description": "Plant-based patty with lettuce, tomato, and vegan mayo",
+          "price": 6.99,
+          "options": [
+            {"name": "Vegan Cheese", "price": 1.00},
+            {"name": "Avocado", "price": 1.50}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "id": "s1",
+          "name": "French Fries",
+          "description": "Crispy golden fries",
+          "price": 2.99,
+          "sizes": [
+            {"name": "Small", "price": 0.00},
+            {"name": "Medium", "price": 1.00},
+            {"name": "Large", "price": 2.00}
+          ]
+        },
+        {
+          "id": "s2",
+          "name": "Onion Rings",
+          "description": "Crispy battered onion rings",
+          "price": 3.99
+        },
+        {
+          "id": "s3",
+          "name": "Side Salad",
+          "description": "Fresh greens with choice of dressing",
+          "price": 3.49,
+          "options": [
+            {"name": "Ranch Dressing", "price": 0.00},
+            {"name": "Italian Dressing", "price": 0.00},
+            {"name": "Balsamic Vinaigrette", "price": 0.00}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "id": "d1",
+          "name": "Soft Drink",
+          "description": "Choice of soda",
+          "price": 1.99,
+          "sizes": [
+            {"name": "Small", "price": 0.00},
+            {"name": "Medium", "price": 0.75},
+            {"name": "Large", "price": 1.50}
+          ],
+          "options": [
+            {"name": "Cola", "price": 0.00},
+            {"name": "Diet Cola", "price": 0.00},
+            {"name": "Lemon-Lime", "price": 0.00},
+            {"name": "Root Beer", "price": 0.00}
+          ]
+        },
+        {
+          "id": "d2",
+          "name": "Milkshake",
+          "description": "Creamy ice cream shake",
+          "price": 3.99,
+          "options": [
+            {"name": "Chocolate", "price": 0.00},
+            {"name": "Vanilla", "price": 0.00},
+            {"name": "Strawberry", "price": 0.00}
+          ]
+        },
+        {
+          "id": "d3",
+          "name": "Coffee",
+          "description": "Freshly brewed coffee",
+          "price": 1.79,
+          "sizes": [
+            {"name": "Small", "price": 0.00},
+            {"name": "Medium", "price": 0.50},
+            {"name": "Large", "price": 1.00}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combo Meals",
+      "items": [
+        {
+          "id": "c1",
+          "name": "Classic Combo",
+          "description": "Classic Burger, Medium Fries, and Medium Drink",
+          "price": 9.99,
+          "includes": ["b1", "s1:medium", "d1:medium"]
+        },
+        {
+          "id": "c2",
+          "name": "Deluxe Combo",
+          "description": "Deluxe Burger, Large Fries, and Large Drink",
+          "price": 12.99,
+          "includes": ["b2", "s1:large", "d1:large"]
+        },
+        {
+          "id": "c3",
+          "name": "Veggie Combo",
+          "description": "Veggie Burger, Medium Fries, and Medium Drink",
+          "price": 10.99,
+          "includes": ["b3", "s1:medium", "d1:medium"]
+        }
+      ]
+    }
+  ]
+}
